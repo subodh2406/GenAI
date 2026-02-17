@@ -1,0 +1,30 @@
+uv is a very fast Python package manager and virtual environment tool, written in Rust, created by Astral (the team behind Ruff).
+
+uv init
+What it does:
+Initializes a new Python project
+
+uv venv
+What it does:
+Creates only the virtual environment
+
+.venv\Scripts\activate
+What it does:
+Activates the virtual environment
+
+Python & pip now point to .venv
+
+
+uv add -r requirements.txt
+What it does:
+Reads dependencies from requirements.txt
+
+Installs them into .venv
+
+uv add ipykernel
+What it does:
+Installs ipykernel
+
+Registers the environment for Jupyter Notebook
+
+After this, you can select this venv as a kernel.
